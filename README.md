@@ -23,7 +23,6 @@ cheerio
 
 axios
 
-NOTE: If you want to earn complete credit for your work, you must use all five of these packages in your assignment.
 
 In order to deploy your project to Heroku, you must set up an mLab provision. mLab is remote MongoDB database that Heroku supports natively. Follow these steps to get it running:
 
@@ -43,14 +42,6 @@ mongoose.connect(MONGODB_URI);
 
 This code should connect mongoose to your remote mongolab database if deployed, but otherwise will connect to the local mongoHeadlines database on your computer.
 
-Watch this demo of a possible submission. See the deployed demo application here.
-
-Your site doesn't need to match the demo's style, but feel free to attempt something similar if you'd like. Otherwise, just be creative!
-
-Submission on BCS
-
-This assignment must be deployed. * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-
 Instructions
 
 Create an app that accomplishes the following:
@@ -67,4 +58,4 @@ Feel free to add more content to your database (photos, bylines, and so on).
 
 Users should also be able to leave comments on the articles displayed and revisit them later. The comments should be saved to the database as well and associated with their articles. Users should also be able to delete comments left on articles. All stored comments should be visible to every user.
 
-Beyond these requirements, be creative and have fun with this!
+
